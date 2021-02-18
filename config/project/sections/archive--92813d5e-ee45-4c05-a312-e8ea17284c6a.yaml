@@ -1,0 +1,23 @@
+enableVersioning: true
+handle: archive
+name: 'Posts Archive'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  d57fdfed-307d-4463-aae8-b11af3b62a78:
+    enabledByDefault: true
+    hasUrls: true
+    template: _archive.twig
+    uriFormat: archive
+type: single

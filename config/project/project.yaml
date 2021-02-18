@@ -1,0 +1,31 @@
+dateModified: 1613683661
+email:
+  fromEmail: benncadproost@gmail.com
+  fromName: 'benn dev blog'
+  transportType: craft\mail\transportadapters\Sendmail
+plugins:
+  dumper:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  navigate:
+    edition: standard
+    enabled: true
+    licenseKey: OKQUEH61LAZI2RLR935PZYCS
+    schemaVersion: 2.4.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: pro
+  live: true
+  name: 'benn dev blog'
+  schemaVersion: 3.6.4
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

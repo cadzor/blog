@@ -1,0 +1,21 @@
+{% extends '_layout.twig' %}
+{% block content %}
+    <div class="flex justify-center py-5">
+        <div class="container max-w-3xl p-4">
+            <div class="text-center">
+                <h1 class="py-5">{{ "Hi"|t }}.</h1>
+                {{ entry.homeIntro }}
+            </div>
+
+            <hr class="my-4">
+
+            <h1 class="mt-4">{{ "Recent Posts"|t }}:</h1>
+            {% for postEntry in craft.entries.section('posts').limit(3) %}
+                <div class="py-5">
+                    <a href="{{ postEntry.getUrl() }}"><h2 class="underline hover:text-cyan-900">{{ postEntry.title|lower }}</h2></a>
+                    <p>{{ postEntry.excerpt|lower }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

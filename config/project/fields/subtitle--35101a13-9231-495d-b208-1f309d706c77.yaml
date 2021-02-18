@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: efc182d1-abfe-4096-b4b4-dd66cbf8f376
+handle: subtitle
+instructions: 'Short one-liner.'
+name: Subtitle
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

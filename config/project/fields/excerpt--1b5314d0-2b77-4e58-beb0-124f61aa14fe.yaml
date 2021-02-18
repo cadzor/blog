@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: efc182d1-abfe-4096-b4b4-dd66cbf8f376
+handle: excerpt
+instructions: 'Short excerpt from the body text, shown as short-text on homepage.'
+name: Excerpt
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: ''
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>{% if title is defined %}{{ title }} - {% endif %}{{ systemName }}</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="relative min-h-screen pb-20 text-cyan-900">
+    {% include '_header.twig' %}
+    {% block content %}
+    {% endblock %}
+    {% include '_footer.twig' %}
+</div>
+</body>
+
+
+</html>
